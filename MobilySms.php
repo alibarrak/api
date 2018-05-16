@@ -265,6 +265,7 @@ class MobilySms {
                 'dateSend'=>$dateSend,
                 'notRepeat'=>$notRepeat,
                 'deleteKey'=>$deleteKey,
+		'applicationType'=>'68',
                 'lang'=>'3'
             );
             $this->json = array_merge($this->json, $data);
